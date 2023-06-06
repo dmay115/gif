@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+}
+
+#gif-search {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  border: 3px, rgba(71, 3, 3, 0.767);
+}
+
+#user-input {
+  text-align: center;
+  margin: 4px;
+  border: 2px;
+  border-radius: 3px;
+}
+
+.button {
+    height: 45px;
+    border: 2px;
+    margin: 4px;
+    width: 100px;
+    border-radius: 3px;
+}
+
+#search {
+    background-color: rgb(223, 215, 204);
+}
+#search:active {
+    background-color: rgb(170, 164, 155);
+}
+
+#remove {
+    background-color: rgba(184, 6, 6, 0.767);
+    color: white;
+    font-weight: bolder;
+}
+
+#remove:active {
+    background-color: rgba(71, 3, 3, 0.767);
+    color: white;
+    font-weight: bolder;
+}
